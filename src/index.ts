@@ -31,4 +31,4 @@ app.listen(config.configApp.port, async () => {
    logger.logger.info(`Server running on port ${config.configApp.port}`)
 })
 
-export default app
+export default app;
