@@ -5,7 +5,7 @@ export interface ConfigApp{
 }
 
 const configApp: ConfigApp = {
-    serverHost: process.env.DATABASE_HOST || 'localhost',
+    serverHost: process.env.SERVER_HOST || 'localhost',
     secretJwt: process.env.SECRET || "root",
     port: "3000"
 }
