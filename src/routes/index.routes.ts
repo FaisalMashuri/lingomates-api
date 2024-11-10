@@ -12,9 +12,7 @@ export class APIRouter {
         this.router = Router()
         this.initRoutes()
     }
-
     private initRoutes() {
-        console.log("router param : ", this.routeParam)
         this.router.get("/japanese", this.routeParam.japaneseController.getKatakana)
         // this.router.post("/api/v1/users", UserController.createUser)
         // this.router.get("/api/v1/users", UserController.getUsers)
