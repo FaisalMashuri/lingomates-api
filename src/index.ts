@@ -30,3 +30,5 @@ app.listen(config.configApp.port, async () => {
 //    await db.migrate()
    logger.logger.info(`Server running on port ${config.configApp.port}`)
 })
+
+export default app
